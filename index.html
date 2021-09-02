@@ -15,23 +15,24 @@
   <div class="container my-5">
     <div class="row">
       <div class="col-sm my-1">
-        <button class="btn btn-primary btn-lg btn-block">Rock</button>
+        <button id="rock" onclick="play(event)" class="btn btn-primary btn-lg btn-block">Rock</button>
       </div>
       <div class="col-sm my-1">
-        <button class="btn btn-primary btn-lg btn-block">Paper</button>
+        <button id="paper" onclick="play(event)" class="btn btn-primary btn-lg btn-block">Paper</button>
       </div>
       <div class="col-sm my-1">
-        <button class="btn btn-primary btn-lg btn-block">Scissors</button>
+        <button id="scissors" onclick="play(event)" class="btn btn-primary btn-lg btn-block">Scissors</button>
       </div>
     </div>
   </div>
   <div class="container my-5">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Draw!</h5>
-        <div>You selected scissors!<br/>The computer chose scissors!</div>
+        <h5 id="result" class="card-title">Draw!</h5>
+        <div id="message">You selected scissors!<br/>The computer chose scissors!</div>
       </div>
     </div>
-  </div>  
+  </div>
+  <script src="script.js"></script>  
 </body>
 </html>
