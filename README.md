@@ -4,9 +4,7 @@ A simple web application to play "[rock paper scissors](https://en.wikipedia.org
 
 This image from Wikipedia summarizes the rules of the game:
 
-<div class="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/440px-Rock-paper-scissors.svg.png" width="90%">
-</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/440px-Rock-paper-scissors.svg.png" width="50%">
 
 ## Run locally
 
